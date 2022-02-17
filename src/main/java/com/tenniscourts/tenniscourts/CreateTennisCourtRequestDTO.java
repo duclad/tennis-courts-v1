@@ -1,9 +1,5 @@
 package com.tenniscourts.tenniscourts;
 
-import com.tenniscourts.schedules.ScheduleDTO;
-
-import java.util.List;
-
 import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
@@ -19,13 +15,7 @@ import lombok.ToString;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TennisCourtDTO {
-
-    private Long id;
-
+public class CreateTennisCourtRequestDTO {
     @NotNull
     private String name;
-
-    private List<ScheduleDTO> tennisCourtSchedules;
-
 }
