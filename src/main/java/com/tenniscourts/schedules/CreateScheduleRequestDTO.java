@@ -1,11 +1,13 @@
 package com.tenniscourts.schedules;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.Getter;
-import lombok.Setter;
+
+import java.time.LocalDateTime;
 
 import javax.validation.constraints.NotNull;
-import java.time.LocalDateTime;
+
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
